@@ -34,19 +34,25 @@
     </v-app-bar>
 
     <v-main>
-      <HelloWorld />
+      <v-container>
+        <Signin>
+          <SearchMap />
+        </Signin>
+      </v-container>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import SearchMap from './components/SearchMap.vue'
+import Signin from './components/Signin.vue'
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    SearchMap,
+    Signin,
   },
 
   data: () => ({

@@ -9,8 +9,11 @@
   },
   "dependencies": {
     "@aws-amplify/ui-vue": "^1.0.10",
+    "@benchmark-urbanism/vue-mapbox-map": "^0.14.11",
     "aws-amplify": "^4.0.3",
+    "aws-sdk": "^2.922.0",
     "core-js": "^3.6.5",
+    "maplibre-gl": "^1.14.0",
     "vue": "^2.6.11",
     "vuetify": "^2.4.0"
   },
